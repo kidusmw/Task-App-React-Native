@@ -5,6 +5,9 @@ export const colors = {
   border: "#ddd",
   white: "#fff",
   background: "#f2f2f2",
+  errorBackground: "#FFF0F0",
+  errorBorder: "#FFCDD2",
+  errorText: "#C62828",
 };
 
 export const fontSizes = {

@@ -102,4 +102,22 @@ export const styles = StyleSheet.create({
   footerInnerText: {
     color: colors.primary,
   },
+
+  //--- ERROR ----------------------------------
+  errorContainer: {
+    backgroundColor: colors.errorBackground,
+    borderWidth: 1,
+    borderColor: colors.errorBorder,
+    borderRadius: 8,
+    padding: 10,
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 8,
+    marginBottom: 16,
+  },
+  errorText: {
+    fontSize: fontSizes.sm,
+    color: colors.errorText,
+    flex: 1,
+  },
 });
