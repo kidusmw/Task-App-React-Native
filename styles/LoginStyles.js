@@ -86,11 +86,17 @@ export const styles = StyleSheet.create({
   },
 
   // ─── FOOTER ───────────────────────────────
+  footerContainer: {
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    marginTop: 16,
+  },
+
   footer: {
     fontSize: fontSizes.sm,
     color: colors.muted,
     textAlign: "center",
-    marginTop: 16,
   },
 
   footerInnerText: {
